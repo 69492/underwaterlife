@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import { Factory, Droplet, Water, Industry } from "lucide-react";
+import { Factory, Droplet, Waves, Building2 } from "lucide-react";
 import { Button } from "./ui/button";
 
 const ProblemCategories = () => {
@@ -10,7 +10,7 @@ const ProblemCategories = () => {
       id: "agriculture",
       title: "Agriculture",
       description: "Fertilizers, pesticides, and soil erosion from farms",
-      icon: <Water className="h-8 w-8 text-blue-500" />,
+      icon: <Waves className="h-8 w-8 text-blue-500" />,
       color: "bg-blue-50 border-blue-200"
     },
     {
@@ -31,7 +31,7 @@ const ProblemCategories = () => {
       id: "waste",
       title: "Waste Management",
       description: "Improper disposal of waste affecting water bodies",
-      icon: <Industry className="h-8 w-8 text-amber-500" />,
+      icon: <Building2 className="h-8 w-8 text-amber-500" />,
       color: "bg-amber-50 border-amber-200"
     }
   ];

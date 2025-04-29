@@ -1,8 +1,7 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { CheckCircle, Factory, Water } from "lucide-react";
+import { CheckCircle, Factory, Waves } from "lucide-react";
 
 const Solutions = () => {
   const solutionCategories = [
@@ -79,7 +78,7 @@ const Solutions = () => {
           <div className="lg:w-1/2">
             <div className="bg-green-50 border border-green-200 rounded-lg p-8">
               <div className="flex items-center mb-6">
-                <Water className="h-8 w-8 text-green-600 mr-3" />
+                <Waves className="h-8 w-8 text-green-600 mr-3" />
                 <h3 className="text-xl font-bold text-green-700">Our Approach</h3>
               </div>
               <ul className="space-y-4">
